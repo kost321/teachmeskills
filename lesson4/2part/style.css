@@ -1,9 +1,19 @@
 @font-face {
-    font-family: "HindSiliguri";
-    src: url("fonts/HindSiliguri-Regular.eot");
-    src: url("fonts/HindSiliguri-Regular.eot?#iefix") format("embedded-opentype"),
-      url("fonts/HindSiliguri-Re0gular.woff") format("woff"),
-      url("fonts/HindSiliguri-Regular.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-  }
+  font-family: "HindSiliguri";
+  src: url("fonts/HindSiliguri-Regular.eot");
+  src: url("fonts/HindSiliguri-Regular.eot?#iefix") format("embedded-opentype"),
+    url("fonts/HindSiliguri-Re0gular.woff") format("woff"),
+    url("fonts/HindSiliguri-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.block {
+  margin: 0 auto;
+  width: 1600px;
+  height: 869.69px;
+}
+.block__about{
+    display: flex;
+    
+}
