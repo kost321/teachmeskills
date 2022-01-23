@@ -1,4 +1,54 @@
-div {
+@font-face {
+  font-family: "HindSiliguri";
+  src: url("fonts/HindSiliguri-Regular.eot");
+  src: url("fonts/HindSiliguri-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/HindSiliguri-Regular.woff") format("woff"),
+    url("fonts/HindSiliguri-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "opensans";
+  src: url("fonts/opensans/OpenSans-Regular.eot");
+  src: url("fonts/opensans/OpenSans-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/opensans/OpenSans-Regular.woff") format("woff"),
+    url("fonts/opensans/OpenSans-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+.block {
   width: 1140px;
   height: 333.08px;
+  margin: 0 auto;
+}
+.nav{
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  position: relative;
+}
+.content__dron {
+  width: 555px;
+  height: 296px;
+  background: linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
+border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.dron__img {
+  width: 275px;
+  height: 231px;
+  margin-left: 280px;
+  margin-top: 30px;
+}
+.content__camera {
+  width: 555px;
+  height: 296px;
+  background: linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
+border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.camera__img {
+  width: 238.12px;
+  height: 151.26px;
 }
