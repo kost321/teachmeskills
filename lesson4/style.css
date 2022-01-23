@@ -72,19 +72,48 @@ text-align: center;
 color: #F4F9FC;
 }
 .content__camera {
+  display: flex;
   width: 555px;
   height: 296px;
   background: linear-gradient(257.26deg, #008bf0 -13.2%, #d943c9 130.95%);
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .content__dron__text {
-  display: inline-block;
   width: 249px;
   height: 147px;
 }
 .camera__img {
   width: 238.12px;
   height: 151.26px;
-  margin-left: 280px;
   margin-top: 65px;
+}
+.content__camera__text {
+  width: 249px;
+  height: 147px;
+  margin-left: 35px;
+  margin-top: 75px;
+}
+.title {
+  font-family: HindSiliguri;
+  font-style: normal;
+  font-size: 16px;
+  color: #f4f9fc;
+  opacity: 0.6;
+  margin: 0;
+}
+.title__content {
+  font-family: HindSiliguri;
+  font-size: 30px;
+  line-height: 30px;
+  color: #F4F9FC;
+  margin-top: 15px;
+}
+.title__content_end{
+width: 76px;
+font-family: HindSiliguri;
+font-style: normal;
+font-size: 14px;
+line-height: 27px;
+text-align: center;
+color: #F4F9FC;
 }
