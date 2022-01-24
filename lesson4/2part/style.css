@@ -10,10 +10,49 @@
 
 .block {
   margin: 0 auto;
-  width: 1600px;
+  width: 1500px;
   height: 869.69px;
 }
-.block__about{
-    display: flex;
-    
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.pic {
+  width: 500px;
+  height: px;
+  background: #F4F9FC;
+}
+.block__about__product__text{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 600px;
+}
+.text__title{
+font-family: HindSiliguri;
+font-style: normal;
+font-size: 14px;
+line-height: 23px;
+letter-spacing: 0.145em;
+text-transform: uppercase;
+color: #C72535;
+opacity: 0.6;
+margin-top: 0;
+margin-bottom: 0;
+}
+.text__title__before{
+font-family: HindSiliguri;
+font-style: normal;
+font-size: 44px;
+line-height: 71px;
+color: #030D15;
+margin-top: 0;
+margin-bottom: 0;
+}
+.block__about__product{
+ margin-bottom: 250px;
+width: 700px;
+height: 200px;
+background: #F4F9FC;
 }
