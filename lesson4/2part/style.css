@@ -60,15 +60,14 @@
 .block__about__product {
   margin: 0 auto;
   margin-bottom: 250px;
-  width: 785px;
+  width: 485px;
   height: 200px;
 }
 .block__about__product__information {
- 
+  width: 457px;
 }
 .content {
   width: 457px;
-  height: 168px;
   font-family: HindSiliguri;
   font-style: normal;
   font-weight: normal;
@@ -77,13 +76,10 @@
   color: #030d15;
   opacity: 0.6;
 }
-.list {
-  
-}
+
 ul {
   padding-left: 0;
   padding-top: 4px;
-
 }
 li {
   margin-top: 20px;
@@ -95,7 +91,7 @@ li {
   list-style-type: none;
   line-height: 1.8;
 }
-li:before {
+.list::before {
   content: "";
   background: url(Group\ 23.svg);
   display: inline-block;
