@@ -17,7 +17,7 @@
   align-items: center;
   justify-content: space-evenly;
 }
-.block :before {
+.block:before {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -91,10 +91,13 @@ li {
   list-style-type: none;
   line-height: 1.8;
 }
-.list::before {
+
+li::before {
   content: "";
-  background: url(Group\ 23.svg);
+  background: url("Group\ 23.svg");
+  background-size: cover;
   display: inline-block;
   width: 10px;
+  margin-right: 20px;
   height: 10px;
 }
