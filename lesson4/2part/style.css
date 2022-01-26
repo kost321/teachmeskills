@@ -11,20 +11,25 @@
 .block {
   margin: 0 auto;
   width: 1300px;
+  position: relative;
 }
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
-.block:before {
+.main {
+  position: relative;
+}
+.main::after {
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   height: 70%;
   display: block;
-  background: #F4F9FC;
+  background: #ececec;
   z-index: -1;
 }
 .pic {
@@ -67,7 +72,7 @@
   width: 457px;
 }
 .content {
-  width: 457px;
+  width: 500px;
   font-family: HindSiliguri;
   font-style: normal;
   font-weight: normal;
@@ -80,6 +85,7 @@
 ul {
   padding-left: 0;
   padding-top: 4px;
+  width: 500px;
 }
 li {
   margin-top: 20px;
