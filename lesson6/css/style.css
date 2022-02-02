@@ -96,7 +96,7 @@ body {
 .body__dot_point-of-view-right {
   position: absolute;
   left: 52%;
-  top:28%;
+  top: 28%;
 }
 .body__frame_none-shadow {
   position: absolute;
@@ -116,7 +116,7 @@ body {
   top: 42%;
   z-index: 1;
 }
-.body__quotes{
+.body__quotes {
   position: absolute;
   left: 43%;
   top: 28%;
