@@ -16,6 +16,7 @@ body {
 }
 .page {
   position: absolute;
+  margin: 0 auto;
   width: 1519px;
   height: 900px;
   background: linear-gradient(
