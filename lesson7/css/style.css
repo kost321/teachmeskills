@@ -330,3 +330,20 @@ color: #FFFFFF;
   text-align: center;
   color: #FFFFFF;
 }
+.footer{
+  background: #000000;
+  height: 164px;
+}
+.footer-conteiner{
+  display: flex;
+  margin: 0 auto;
+  width: 1170px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.icons{
+  background: #CCCCCC;
+  size: 20px;
+}
+
