@@ -21,7 +21,6 @@
 .body {
   position: absolute;
   margin: 0 0 0 0;
-  width: 1510px;
   height: 1030px;
 }
 .body__img {
@@ -29,7 +28,6 @@
   z-index: -1;
 }
 .header {
-  width: 1510px;
   display: flex;
   justify-content: space-around;
   height: 76px;
