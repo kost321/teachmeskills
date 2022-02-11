@@ -24,7 +24,7 @@ body {
 }
 .page {
   object-fit: cover;
-  background-image: url(/img/image.svg);
+  background-image: url(../img/image.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   z-index: -1;
@@ -51,6 +51,7 @@ body {
   display: flex;
   align-items: center;
 }
+
 .menu {
   display: flex;
   justify-content: space-between;
@@ -268,7 +269,7 @@ mark {
   height: 20px;
   right: 70%;
   top: 55%;
-  content: url(/img/Polygon\ 1.svg);
+  content: url(../img/Polygon\ 1.svg);
 }
 .about {
   display: flex;
@@ -300,7 +301,7 @@ mark {
 .section-banner {
   height: 442px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/img/image\ city.svg);
+    url(../img/image\ city.svg);
 }
 
 .banner {
@@ -352,7 +353,9 @@ mark {
 .form-contact {
   display: flex;
   height: 200px;
+  width: 1170px;
   margin-bottom: 30px;
+  justify-content: space-around;
 }
 .fields-to-fill {
   padding-right: 100px;
@@ -448,7 +451,37 @@ mark {
   .block-contact {
     width: 90%;
   }
+  
 }
 
-@media (max-width: 992px) {
+@media (max-width: 576px) {  
+.header{
+  height: 56px;
+}
+  .page{
+    background-size: cover;
+  }
+ .conteiner{
+   flex-direction: column;
+   align-items: center;
+ }
+ .column{
+   margin-top: 0;
+   align-items: center;
+   height: 400px;
+ }
+ .logo-big{
+   display: none;
+ }
+ .text{
+   text-align: center;
+   justify-content: center;
+ }
+ .desc{
+   text-align: center;
+ }
+ .form{
+   margin-top: 0;
+ }
+ 
 }
