@@ -20,19 +20,22 @@
 }
 body {
   margin: 0;
+  width: 1510px;
 }
 .page {
-
+  object-fit: cover;
   background-image: url(/img/image.svg);
   background-repeat: no-repeat;
+  background-size: 100%;
   z-index: -1;
 }
 .header {
+  width: 1510px;
   display: flex;
   height: 76px;
   background: #000000;
 }
-.header__conteiner{
+.header__conteiner {
   margin: 0 auto;
   width: 1170px;
   display: flex;
@@ -67,6 +70,7 @@ a {
   color: #ffffff;
 }
 .content {
+  width: 1510px;
   margin: 0 auto;
   height: 900px;
   background: rgba(0, 0, 0, 0.5);
@@ -405,42 +409,46 @@ mark {
   text-align: center;
   color: rgba(255, 255, 255, 0.5);
 }
-.links{
+.links {
   display: flex;
   justify-content: space-around;
   width: 1170px;
-  font-size: 50px; 
+  font-size: 50px;
 }
 @media (max-width: 1200px) {
-  .page{
+  .page {
     background-repeat: no-repeat;
   }
-.conteiner{
-  width: 90%;
-}
-.header{
-  justify-content: space-between;
-  
-}
-.content{
-  height: auto;
-  
-}
-.column{
-  width: 50%;
-  padding-left: 50px;
-}
-.text{
-  width: 100%;
-}
-.Reviews{
-  width: 90%;
-}
-.block
+  .conteiner {
+    width: 80%;
+  }
+  .header__conteiner {
+    width: 80%;
+  }
+  .header {
+    justify-content: space-between;
+  }
+  .content {
+  }
+  .column {
+    width: 50%;
+  }
+  .text {
+    width: 100%;
+  }
+  .Reviews {
+    width: 90%;
+  }
+  .footer-conteiner {
+    width: 90%;
+  }
+  .links {
+    width: 90%;
+  }
+  .block-contact {
+    width: 90%;
+  }
 }
 
-
-@media (max-width: 992px) { 
- 
+@media (max-width: 992px) {
 }
-
