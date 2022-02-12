@@ -1,13 +1,15 @@
 $blue: #a1c4fd;
 @mixin group {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-end;
   width: 255px;
   height: 388px;
   background: #f2f6fa;
-  margin-left: 20px;
+  margin-left: 35px;
+  background-image: url(../../img/img.svg);
+  background-repeat: no-repeat;
 }
-
 .title {
   margin: 0 auto;
   max-width: 1170px;
@@ -94,10 +96,10 @@ $blue: #a1c4fd;
   align-items: center;
   justify-content: space-between;
   height: 50%;
-  .name {
+  .block-end_name {
+    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     font-size: 18px;
     line-height: 21px;
     color: #010624;
@@ -121,6 +123,72 @@ $blue: #a1c4fd;
     color: $blue;
   }
 }
-.window {
-  @include group();
+.conteiner-windows {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 75%;
+  .window {
+    @include group();
+    .about {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      height: 70px;
+      width: 120px;
+      padding-left: 20px;
+      .metro-station {
+        display: flex;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 12px;
+        color: #ff0013;
+      }
+      .metro-station::before {
+        content: url(../../img/Vector.svg);
+      }
+      .lounge-name {
+        display: flex;
+        width: 100%;
+        line-height: 21px;
+        color: #000000;
+        flex-direction: column;
+        align-items: center;
+      }
+      .lounge-name::after {
+        content: "";
+        position: relative;
+        left: 50px;
+        border: 1px solid #ffffff;
+        width: 225px;
+        background-color: #ffffff;
+        margin-top: 20px;
+      }
+    }
+    .about-end {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding-top: 40px;
+      width: 140px;
+      padding-left: 20px;
+      .number {
+        color: $blue;
+      }
+      .block {
+        display: flex;
+        .section-left {
+          width: 63px;
+          height: 27px;
+          background: #ffffff;
+        }
+        .section-right {
+          width: 63px;
+          height: 27px;
+          background: #ffffff;
+        }
+      }
+    }
+  }
 }
