@@ -1,0 +1,126 @@
+$blue: #a1c4fd;
+@mixin group {
+  display: flex;
+  flex-wrap: wrap;
+  width: 255px;
+  height: 388px;
+  background: #f2f6fa;
+  margin-left: 20px;
+}
+
+.title {
+  margin: 0 auto;
+  max-width: 1170px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 28px;
+  color: #010624;
+}
+.title::after {
+  margin-top: 20px;
+  display: flex;
+  content: "";
+  border: 1px solid $blue;
+  width: 60px;
+  background-color: $blue;
+}
+.conteiner {
+  margin: 0 auto;
+  display: flex;
+  margin-top: 30px;
+  max-width: 1170px;
+  .choice {
+    display: flex;
+    width: 255px;
+    flex-direction: column;
+    height: 380px;
+    .block {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      height: 50%;
+      .name-close {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        .name {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 18px;
+          line-height: 21px;
+          color: #010624;
+        }
+        .close {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 12px;
+          text-decoration: none;
+          border: 0;
+          color: $blue;
+        }
+      }
+      .filtr-option {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        font-size: 15px;
+        line-height: 18px;
+        color: #5c5c6d;
+      }
+    }
+    .block::after {
+      content: "";
+      border: 1px solid #edecef;
+      width: 100%;
+      background-color: #edecef;
+    }
+  }
+}
+.block-end {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 50%;
+  .name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    line-height: 21px;
+    color: #010624;
+  }
+  .filtr-option {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    font-size: 15px;
+    line-height: 18px;
+    color: #5c5c6d;
+  }
+  .close {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 12px;
+    text-decoration: none;
+    border: 0;
+    color: $blue;
+  }
+}
+.window {
+  @include group();
+}
