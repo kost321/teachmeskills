@@ -188,10 +188,17 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding-top: 40px;
   width: 140px;
+  height: 60px;
   padding-left: 20px;
+  padding-bottom: 15px;
+}
+
+.conteiner-windows .window .about-end .price {
+  display: flex;
+  padding-bottom: 10px;
 }
 
 .conteiner-windows .window .about-end .number {
@@ -200,16 +207,42 @@
 
 .conteiner-windows .window .about-end .block {
   display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  padding-top: 10px;
 }
 
 .conteiner-windows .window .about-end .block .section-left {
   width: 63px;
   height: 27px;
   background: #ffffff;
+  color: #a1c4fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteiner-windows .window .about-end .block .section-left::before {
+  content: url("Google.ab0b5733.svg");
+  position: relative;
+  right: 5px;
+  top: 3px;
 }
 
 .conteiner-windows .window .about-end .block .section-right {
   width: 63px;
   height: 27px;
   background: #ffffff;
+  color: #a1c4fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteiner-windows .window .about-end .block .section-right::before {
+  content: url("Vector-yandex.9f8ba874.svg");
+  position: relative;
+  right: 5px;
+  top: 3px;
 }

@@ -169,24 +169,55 @@ $blue: #a1c4fd;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      justify-content: space-between;
+      justify-content: space-evenly;
       padding-top: 40px;
       width: 140px;
+      height: 60px;
       padding-left: 20px;
+      padding-bottom: 15px;
+      .price {
+        display: flex;
+        padding-bottom: 10px;
+      }
       .number {
         color: $blue;
       }
       .block {
         display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding-bottom: 30px;
+        padding-top: 10px;
+
         .section-left {
           width: 63px;
           height: 27px;
           background: #ffffff;
+          color: $blue;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .section-left::before {
+          content: url(../../img/Google.svg);
+          position: relative;
+          right: 5px;
+          top: 3px;
         }
         .section-right {
           width: 63px;
           height: 27px;
           background: #ffffff;
+          color: $blue;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .section-right::before {
+          content: url(../../img/Vector-yandex.svg);
+          position: relative;
+          right: 5px;
+          top: 3px;
         }
       }
     }
