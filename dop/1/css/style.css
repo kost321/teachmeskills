@@ -1,0 +1,194 @@
+@font-face {
+  font-family: "opensans";
+  src: url("/1/css/opensans/OpenSans-Regular.eot");
+  src: url("/1/css/opensans/OpenSans-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("/1/css/opensans/OpenSans-Regular.woff") format("woff"),
+    url("/1/css/opensans/OpenSans-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("/1/css/raleway/Raleway-Regular.eot");
+  src: url("/1/css/raleway/Raleway-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("/1/css/raleway/Raleway-Regular.woff") format("woff"),
+    url("/1/css/raleway/Raleway-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+.body {
+  position: absolute;
+  margin: 0 0 0 0;
+  height: 1030px;
+}
+.body__img {
+  position: absolute;
+  z-index: -1;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  height: 76px;
+  background: #000000;
+}
+.header__logo-medium {
+  display: flex;
+  width: 183.1px;
+  align-items: center;
+}
+.header__logo-medium_AX {
+  color: #ffffff;
+}
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  width: 570px;
+}
+.header__menu_navigation {
+  display: flex;
+  font-family: opensans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  align-items: center;
+  color: #ffffff;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.content {
+  display: flex;
+  align-items: center;
+  width: 1510px;
+  height: 92.3%;
+  justify-content: space-around;
+  background: rgba(0, 0, 0, 0.5);
+}
+.content__conteiner_column {
+  display: flex;
+  margin-top: 2%;
+  margin-left: 6%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 600px;
+  height: 700px;
+}
+.content__conteiner_column_logo-big {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 270px;
+  height: 100px;
+}
+.content__conteiner_column_text {
+  width: 670px;
+  height: 168px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.content__conteiner_column_line {
+  width: 170px;
+  height: 0px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+}
+.content__conteiner_column_desc {
+  width: 270px;
+  height: 42px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.content__conteiner_column_button {
+  width: 270px;
+  height: 58px;
+  border: 2px solid #ffffff;
+  background-color: Transparent;
+  background-repeat: no-repet;
+  cursor: pointer;
+  font-family: opensans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+}
+.content__conteiner_form {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-bottom: 6%;
+  margin-right: 6%;
+  width: 470px;
+  height: 450px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.content__conteiner_form_title {
+  width: 470px;
+  height: 90px;
+  font-family: opensans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+mark {
+  color: #ec7979;
+  background-color: Transparent;
+}
+.content__conteiner_form_user-data {
+  margin-left: 10%;
+  width: 370px;
+  font-family: opensans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  color: #bdbdbd;
+}
+.content__conteiner_form_line {
+  margin-left: 10%;
+  width: 370px;
+  background-color: #bdbdbd;
+  border: 1px solid #bdbdbd;
+}
+.content__conteiner_form_button {
+  width: 470px;
+  height: 60px;
+  border: 2px solid #ec7979;
+  cursor: pointer;
+  font-family: opensans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  background: #ec7979;
+  border-radius: 0px 0px 10px 10px;
+  color: #ffffff;
+}
+.button{
+  margin: 0 0 0 0;
+}

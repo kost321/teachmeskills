@@ -1,0 +1,125 @@
+@font-face {
+  font-family: "Circular";
+  src: url("font/Circular/CircularStd-Medium.eot");
+  src: url("font/Circular/CircularStd-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("font/Circular/CircularStd-Medium.woff") format("woff"),
+    url("font/Circular/CircularStd-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+body {
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+.page {
+  position: absolute;
+  margin: 0 auto;
+  width: 1519px;
+  height: 900px;
+  background: linear-gradient(
+    180deg,
+    rgba(236, 240, 253, 0) 0%,
+    rgba(236, 240, 253, 0.53) 14.32%,
+    #ecf0fd 45.83%,
+    rgba(236, 240, 253, 0.43) 84.33%,
+    rgba(236, 240, 253, 0) 100%
+  );
+  background-size: 100%;
+}
+.title {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  top: 10%;
+  height: 150px;
+  width: 400px;
+  font-family: Circular;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 60px;
+  color: #272d4e;
+}
+.body {
+  position: relative;
+  height: 600px;
+}
+.body__avatar_left-top {
+  position: absolute;
+  left: 15%;
+}
+.body__avatar_left-middle {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+}
+.body__avatar_left-buttom {
+  position: absolute;
+  top: 90%;
+  left: 8%;
+}
+.body__avatar_right-top {
+  position: absolute;
+  left: 75%;
+}
+.body__avatar_right-middle {
+  position: absolute;
+  left: 85%;
+  top: 40%;
+}
+.body__avatar_right-buttom {
+  position: absolute;
+  left: 80%;
+  top: 90%;
+}
+.body__text {
+  width: 566.17px;
+  height: 198px;
+  position: relative;
+  left: 32%;
+  top: 45%;
+  font-family: Circular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26.7px;
+  line-height: 39px;
+  text-align: center;
+  color: #94a2b3;
+  z-index: 4;
+}
+.body__dot_point-of-view-left {
+  position: absolute;
+  left: 17%;
+  top: 72%;
+}
+.body__dot_point-of-view-right {
+  position: absolute;
+  left: 52%;
+  top: 28%;
+}
+.body__frame_none-shadow {
+  position: absolute;
+  left: 23%;
+  top: 20%;
+  z-index: 3;
+}
+.body__frame_big-shadow {
+  position: absolute;
+  left: 25%;
+  top: 28%;
+  z-index: 2;
+}
+.body__frame_medium-shadow {
+  position: absolute;
+  left: 30%;
+  top: 42%;
+  z-index: 1;
+}
+.body__quotes {
+  position: absolute;
+  left: 43%;
+  top: 28%;
+  z-index: 3;
+}
