@@ -253,6 +253,15 @@ body {
           @media (max-width: 800px) {
             bottom: 340px;
           }
+          @media (max-width: 576px) {
+            bottom: 304px;
+          }
+          @media (max-width: 511px) {
+            bottom: 270px;
+          }
+          @media (max-width: 330px) {
+            bottom: 235px;
+          }
         }
         .section__form {
           display: flex;

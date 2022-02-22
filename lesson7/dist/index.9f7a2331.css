@@ -278,6 +278,21 @@ body .page .page__section .section__content .content__column::after {
     bottom: 340px;
   }
 }
+@media (max-width: 576px) {
+  body .page .page__section .section__content .content__column::after {
+    bottom: 304px;
+  }
+}
+@media (max-width: 511px) {
+  body .page .page__section .section__content .content__column::after {
+    bottom: 270px;
+  }
+}
+@media (max-width: 330px) {
+  body .page .page__section .section__content .content__column::after {
+    bottom: 235px;
+  }
+}
 body .page .page__section .section__content .section__form {
   display: flex;
   justify-content: space-between;
