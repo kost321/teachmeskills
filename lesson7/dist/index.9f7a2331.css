@@ -881,57 +881,62 @@ body .section-Reviews .Reviews::after {
   bottom: 140px;
 }
 body .section-Reviews .block {
-  display: flex;
-  justify-content: space-evenly;
-  height: 400px;
-  max-width: 1170px;
+  margin: 0 auto;
+  width: 100%;
+  overflow: hidden;
 }
-body .section-Reviews .block .customer {
-  display: flex;
-  flex-direction: column;
+@media (max-width: 1200px) {
+  body .section-Reviews .block {
+    font-size: 90%;
+  }
 }
-body .section-Reviews .block .customer .window {
-  flex-direction: row;
-  justify-content: center;
-  padding-left: 30px;
+body .section-Reviews .block .swiper-container {
+  max-width: 100%;
+}
+body .section-Reviews .block .swiper-container .swiper-wrapper .swiper-slide {
+  padding: 0 20px;
+}
+body .section-Reviews .block .swiper-container .swiper-wrapper .swiper-slide .customer {
+  display: block;
+  overflow: hidden;
+}
+body .section-Reviews .block .swiper-container .swiper-wrapper .swiper-slide .customer .window {
+  padding: 20px;
+  text-align: center;
   max-width: 300px;
-  height: 180px;
   background: #e2e2e2;
   border-radius: 10px;
   font-family: Raleway;
   font-size: 18px;
   line-height: 21px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   color: #86878b;
 }
 @media (max-width: 1200px) {
-  body .section-Reviews .block .customer .window {
+  body .section-Reviews .block .swiper-container .swiper-wrapper .swiper-slide .customer .window {
     font-size: 14px;
   }
 }
-body .section-Reviews .block .customer .window::after {
+body .section-Reviews .block .swiper-container .swiper-wrapper .swiper-slide .customer .window::after {
   position: relative;
   width: 30px;
   height: 20px;
-  right: 70%;
-  top: 55%;
+  right: 120px;
+  top: 43px;
   content: url("Polygon1.8f46a4f7.svg");
 }
-body .section-Reviews .block .customer .user-pic {
+body .section-Reviews .block .swiper-container .swiper-wrapper .swiper-slide .customer .user-pic {
   position: relative;
-  top: 20%;
+  top: 67px;
   left: 19px;
 }
-body .section-Reviews .block .customer .about {
+body .section-Reviews .block .swiper-container .swiper-wrapper .swiper-slide .customer .about {
   display: flex;
   flex-direction: column;
   width: 220px;
   padding-left: 120px;
   margin-bottom: 20px;
 }
-body .section-Reviews .block .customer .about .name {
+body .section-Reviews .block .swiper-container .swiper-wrapper .swiper-slide .customer .about .name {
   font-family: opensans;
   font-weight: bold;
   font-size: 24px;
@@ -940,11 +945,11 @@ body .section-Reviews .block .customer .about .name {
   color: #000000;
 }
 @media (max-width: 1200px) {
-  body .section-Reviews .block .customer .about .name {
+  body .section-Reviews .block .swiper-container .swiper-wrapper .swiper-slide .customer .about .name {
     font-size: 18px;
   }
 }
-body .section-Reviews .block .customer .about .position {
+body .section-Reviews .block .swiper-container .swiper-wrapper .swiper-slide .customer .about .position {
   padding-top: 10px;
   font-family: Raleway;
   font-size: 18px;
@@ -952,7 +957,7 @@ body .section-Reviews .block .customer .about .position {
   color: #000000;
 }
 @media (max-width: 1200px) {
-  body .section-Reviews .block .customer .about .position {
+  body .section-Reviews .block .swiper-container .swiper-wrapper .swiper-slide .customer .about .position {
     font-size: 14px;
   }
 }
