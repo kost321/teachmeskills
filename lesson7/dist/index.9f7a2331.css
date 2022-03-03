@@ -99,19 +99,19 @@ body .page .header .container .conteiner__logo {
     padding-left: 15px;
   }
 }
-body .page .header .container .conteiner__menu {
+body .page .header .container .nav {
   display: flex;
   justify-content: space-around;
   width: 570px;
   align-items: center;
 }
 @media (max-width: 800px) {
-  body .page .header .container .conteiner__menu {
+  body .page .header .container .nav {
     width: 100%;
     display: none;
   }
 }
-body .page .header .container .conteiner__menu .item {
+body .page .header .container .nav .nav__item {
   display: flex;
   font-family: opensans;
   font-weight: 600;
@@ -122,11 +122,11 @@ body .page .header .container .conteiner__menu .item {
   text-decoration: none;
 }
 @media (max-width: 800px) {
-  body .page .header .container .conteiner__menu .item {
+  body .page .header .container .nav .nav__item {
     padding-top: 20px;
   }
 }
-body .page .header .container .conteiner__menu .item a {
+body .page .header .container .nav .nav__item a {
   text-decoration: none;
   color: #ffffff;
 }
@@ -343,13 +343,7 @@ body .page .page__section .content .form .form__title mark {
   color: #ec7979;
   background-color: Transparent;
 }
-body .page .page__section .content .form .list {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 200px;
-}
-body .page .page__section .content .form .list .list__user-data {
+body .page .page__section .content .form .form__input {
   width: 370px;
   font-family: opensans;
   font-size: 14px;
@@ -358,16 +352,16 @@ body .page .page__section .content .form .list .list__user-data {
   color: #bdbdbd;
 }
 @media (max-width: 1200px) {
-  body .page .page__section .content .form .list .list__user-data {
+  body .page .page__section .content .form .form__input {
     width: 298px;
   }
 }
 @media (max-width: 800px) {
-  body .page .page__section .content .form .list .list__user-data {
+  body .page .page__section .content .form .form__input {
     width: 240px;
   }
 }
-body .page .page__section .content .form .list .list__user-data .input {
+body .page .page__section .content .form .form__input .input {
   width: 370px;
   font-family: opensans;
   font-size: 14px;
